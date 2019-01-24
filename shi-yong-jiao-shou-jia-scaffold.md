@@ -83,5 +83,56 @@ class MyApp extends StatelessWidget{
 
 比如给空白的内容里加点家具。
 
+```
+import 'package:flutter/material.dart';
+
+void main(){
+
+runApp(
+  new MyApp()
+);
+
+}
+
+class MyApp extends StatelessWidget{
+  @override
+  Widget build(BuildContext context) {
+      // TODO: implement build
+      return MaterialApp(
+        title: 'first app',
+        home:Scaffold(
+          appBar:AppBar(
+            title: Text('top bar title'),
+          ),
+          body: Center(
+            child: ListView(
+              padding: EdgeInsets.all(8.0),
+              children: <Widget>[
+                const Text('这是我2019年1月22日的日记'),
+                const Text('这是我1月30的日记'),
+                const Text('这是我1月30的日记'),
+                const Text('这是我1月30的日记'),
+                const Text('这是我1月30的日记'),
+                const Text('这是我1月30的日记'),
+                const Text('这是我1月30的日记'),
+                const Text('这是我1月30的日记'),
+                const Text('这是我1月30的日记'),
+                const Text('这是我1月30的日记'),
+              ],
+            )
+          ),
+          bottomNavigationBar: BottomNavigationBar(
+            items: <BottomNavigationBarItem>[
+              BottomNavigationBarItem(icon: Icon(Icons.home),title:Text('home')),
+              BottomNavigationBarItem(icon: Icon(Icons.business),title:Text('home')),
+              BottomNavigationBarItem(icon: Icon(Icons.school),title:Text('home')),
+            ],
+          ),
+        )
+      );
+    }
+}
+```
+
 
 
