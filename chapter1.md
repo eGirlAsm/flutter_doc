@@ -6,6 +6,8 @@
 
 光复制还真费劲啊。我这个人懒，很少写这样的文章。但为了深入学习，牢固记忆又不得不复制粘贴。
 
+有些小分类是重复的。
+
 #### Accessibility widgets
 
 [https://flutter.io/docs/development/ui/widgets/accessibility](https://flutter.io/docs/development/ui/widgets/accessibility)
@@ -36,11 +38,19 @@
 
 #### Input widgets
 
+[https://flutter.io/docs/development/ui/widgets/input](https://flutter.io/docs/development/ui/widgets/input)
+
 #### Interaction model widgets
+
+[https://flutter.io/docs/development/ui/widgets/interaction](https://flutter.io/docs/development/ui/widgets/interaction)
 
 #### Layout widgets
 
+[https://flutter.io/docs/development/ui/widgets/layout](https://flutter.io/docs/development/ui/widgets/layout)
+
 #### Material Components widgets
+
+[https://flutter.io/docs/development/ui/widgets/material](https://flutter.io/docs/development/ui/widgets/material)
 
 #### Painting and effect widgets
 
