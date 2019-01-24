@@ -6,6 +6,8 @@
 
 光复制还真费劲啊。我这个人懒，很少写这样的文章。但为了深入学习，牢固记忆又不得不复制粘贴。
 
+与自己方便，应该也是与别人方便吧。
+
 有些小分类是重复的。
 
 #### Accessibility widgets
@@ -67,6 +69,4 @@
 #### Text widgets
 
 [https://flutter.io/docs/development/ui/widgets/text](https://flutter.io/docs/development/ui/widgets/text)
-
-
 
