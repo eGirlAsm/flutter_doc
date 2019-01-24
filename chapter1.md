@@ -54,13 +54,19 @@
 
 #### Painting and effect widgets
 
+[https://flutter.io/docs/development/ui/widgets/painting](https://flutter.io/docs/development/ui/widgets/painting)
+
 #### Scrolling widgets
+
+[https://flutter.io/docs/development/ui/widgets/scrolling](https://flutter.io/docs/development/ui/widgets/scrolling)
 
 #### Styling widgets
 
+[https://flutter.io/docs/development/ui/widgets/styling](https://flutter.io/docs/development/ui/widgets/styling)
+
 #### Text widgets
 
-#### 
+[https://flutter.io/docs/development/ui/widgets/text](https://flutter.io/docs/development/ui/widgets/text)
 
 
 
