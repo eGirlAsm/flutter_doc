@@ -18,3 +18,5 @@ runApp(
 
 我试了把 textDirection属性去掉结果报错。
 
+TextDirection 应该是左对齐 右对齐 。
+
