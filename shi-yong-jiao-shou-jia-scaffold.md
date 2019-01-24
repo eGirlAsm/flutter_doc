@@ -210,7 +210,82 @@ class MyApp extends StatelessWidget{
 }
 ```
 
-最后我们还是给他们加个 菜单吧，送佛送到西嘛。
+最后我们还是给他们加个耳朵（左右上角图标）吧，送佛送到西嘛。
+
+```
+import 'package:flutter/material.dart';
+
+void main(){
+
+runApp(
+  new MyApp()
+);
+
+}
+
+class MyApp extends StatelessWidget{
+  @override
+  Widget build(BuildContext context) {
+      // TODO: implement build
+      return MaterialApp(
+        title: 'first app',
+        home:Scaffold(
+          appBar:AppBar(
+            title: Text('top bar title'),
+            leading: Icon(Icons.verified_user),
+            actions: <Widget>[
+              IconButton(icon: Icon(Icons.search),tooltip: 'alsdkjfla',),
+              IconButton(icon: Icon(Icons.settings),)
+            ],
+          ),
+          body: Center(
+            child: ListView(
+              padding: EdgeInsets.all(8.0),
+              children: <Widget>[
+                Row(children: <Widget>[
+                  Expanded(child: Icon(Icons.screen_lock_landscape),),
+                  Expanded(child: Text('小说标题'),)
+                ],),
+                        Row(children: <Widget>[
+                  Expanded(child: Icon(Icons.screen_lock_landscape),),
+                  Expanded(child: Text('小说标题'),)
+                ],),
+                        Row(children: <Widget>[
+                  Expanded(child: Icon(Icons.screen_lock_landscape),),
+                  Expanded(child: Text('小说标题'),)
+                ],),
+                        Row(children: <Widget>[
+                  Expanded(child: Icon(Icons.screen_lock_landscape),),
+                  Expanded(child: Text('小说标题'),)
+                ],),
+                        Row(children: <Widget>[
+                  Expanded(child: Icon(Icons.screen_lock_landscape),),
+                  Expanded(child: Text('小说标题'),)
+                ],),
+                const Text('这是我1月30的日记'),
+                const Text('这是我1月30的日记'),
+                const Text('这是我1月30的日记'),
+                const Text('这是我1月30的日记'),
+                const Text('这是我1月30的日记'),
+                const Text('这是我1月30的日记'),
+                const Text('这是我1月30的日记'),
+                const Text('这是我1月30的日记'),
+                const Text('这是我1月30的日记'),
+              ],
+            )
+          ),
+          bottomNavigationBar: BottomNavigationBar(
+            items: <BottomNavigationBarItem>[
+              BottomNavigationBarItem(icon: Icon(Icons.home),title:Text('home')),
+              BottomNavigationBarItem(icon: Icon(Icons.business),title:Text('home')),
+              BottomNavigationBarItem(icon: Icon(Icons.school),title:Text('home')),
+            ],
+          ),
+        )
+      );
+    }
+}
+```
 
 
 
