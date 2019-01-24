@@ -18,9 +18,13 @@
 
 #### Async widgets
 
-
+[https://flutter.io/docs/development/ui/widgets/async](https://flutter.io/docs/development/ui/widgets/async)
 
 #### Basic widgets
+
+##### Container,Row,Column,Image,Text,Icon,RaisedButton,Scaffold,Appbar,FlutterLogo,Placeholder
+
+[https://flutter.io/docs/development/ui/widgets/basics](https://flutter.io/docs/development/ui/widgets/basics)
 
 #### Cupertino \(iOS-style\) widgets
 
