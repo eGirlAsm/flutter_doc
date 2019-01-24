@@ -44,3 +44,22 @@ runApp(
 
 ![](/assets/container.png)
 
+还可以用其他widget组件 
+
+```
+import 'package:flutter/material.dart';
+
+void main(){
+
+runApp(
+  Padding(
+    padding: EdgeInsets.all(90.0),
+    child: Text('hello world',textDirection: TextDirection.ltr,),
+  )
+);
+
+}
+```
+
+
+
