@@ -40,3 +40,42 @@ class MyApp extends StatelessWidget{
 
 我们这次给它盖个马桶，也就是底部的tab按钮。不然都不能说这是一个app了。
 
+```
+import 'package:flutter/material.dart';
+
+void main(){
+
+runApp(
+  new MyApp()
+);
+
+}
+
+class MyApp extends StatelessWidget{
+  @override
+  Widget build(BuildContext context) {
+      // TODO: implement build
+      return MaterialApp(
+        title: 'first app',
+        home:Scaffold(
+          appBar:AppBar(
+            title: Text('top bar title'),
+          ),
+          body: Center(
+            child: Text('hellasldjfl')
+          ),
+          bottomNavigationBar: BottomNavigationBar(
+            items: <BottomNavigationBarItem>[
+              BottomNavigationBarItem(icon: Icon(Icons.home),title:Text('home')),
+              BottomNavigationBarItem(icon: Icon(Icons.business),title:Text('home')),
+              BottomNavigationBarItem(icon: Icon(Icons.school),title:Text('home')),
+            ],
+          ),
+        )
+      );
+    }
+}
+```
+
+
+
