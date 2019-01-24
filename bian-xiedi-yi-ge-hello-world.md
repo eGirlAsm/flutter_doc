@@ -20,3 +20,25 @@ runApp(
 
 TextDirection 应该是文章左对齐 右对齐 。
 
+
+
+试着把Center改成了 Container 按SHIFT + F5 停止调试,然后再Command + SHIFT + F5 重新调试。
+
+结果文字跑左上角去了。
+
+```
+import 'package:flutter/material.dart';
+
+void main(){
+
+runApp(
+  Container( 
+    child:Text('hello world',textDirection: TextDirection.ltr,)
+  )
+);
+
+}
+```
+
+
+
