@@ -140,5 +140,75 @@ class MyApp extends StatelessWidget{
 
 那我们就给他们加点图片，让app看起来像个小说app。
 
+```
+import 'package:flutter/material.dart';
+
+void main(){
+
+runApp(
+  new MyApp()
+);
+
+}
+
+class MyApp extends StatelessWidget{
+  @override
+  Widget build(BuildContext context) {
+      // TODO: implement build
+      return MaterialApp(
+        title: 'first app',
+        home:Scaffold(
+          appBar:AppBar(
+            title: Text('top bar title'),
+          ),
+          body: Center(
+            child: ListView(
+              padding: EdgeInsets.all(8.0),
+              children: <Widget>[
+                Row(children: <Widget>[
+                  Expanded(child: Icon(Icons.screen_lock_landscape),),
+                  Expanded(child: Text('小说标题'),)
+                ],),
+                        Row(children: <Widget>[
+                  Expanded(child: Icon(Icons.screen_lock_landscape),),
+                  Expanded(child: Text('小说标题'),)
+                ],),
+                        Row(children: <Widget>[
+                  Expanded(child: Icon(Icons.screen_lock_landscape),),
+                  Expanded(child: Text('小说标题'),)
+                ],),
+                        Row(children: <Widget>[
+                  Expanded(child: Icon(Icons.screen_lock_landscape),),
+                  Expanded(child: Text('小说标题'),)
+                ],),
+                        Row(children: <Widget>[
+                  Expanded(child: Icon(Icons.screen_lock_landscape),),
+                  Expanded(child: Text('小说标题'),)
+                ],),
+                const Text('这是我1月30的日记'),
+                const Text('这是我1月30的日记'),
+                const Text('这是我1月30的日记'),
+                const Text('这是我1月30的日记'),
+                const Text('这是我1月30的日记'),
+                const Text('这是我1月30的日记'),
+                const Text('这是我1月30的日记'),
+                const Text('这是我1月30的日记'),
+                const Text('这是我1月30的日记'),
+              ],
+            )
+          ),
+          bottomNavigationBar: BottomNavigationBar(
+            items: <BottomNavigationBarItem>[
+              BottomNavigationBarItem(icon: Icon(Icons.home),title:Text('home')),
+              BottomNavigationBarItem(icon: Icon(Icons.business),title:Text('home')),
+              BottomNavigationBarItem(icon: Icon(Icons.school),title:Text('home')),
+            ],
+          ),
+        )
+      );
+    }
+}
+```
+
 
 
