@@ -12,5 +12,15 @@
 
 [flutter-new-proejct.md](flutter-new-proejct.md)
 
+[编写第一个 Hello world](/bian-xiedi-yi-ge-hello-world.md)
+
+[使用脚手架 scaffold](/shi-yong-jiao-shou-jia-scaffold.md)
+
+[什么是 scaffold](/shi-yao-shi-scaffold.md)
+
+到这里应该也算入门了。
+
+这里开始就得学widget了。
+
 
 
