@@ -7,7 +7,7 @@ void main(){
 
 runApp(
   Center( 
-    child:Text('hello world')
+    child:Text('hello world',textDirection: TextDirection.ltr,)
   )
 );
 
