@@ -16,3 +16,5 @@ runApp(
 
 这应该是史上最简单的flutter 入门了。
 
+我试了把 textDirection属性去掉结果报错。
+
