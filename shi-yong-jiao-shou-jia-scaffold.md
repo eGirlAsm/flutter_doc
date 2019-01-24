@@ -77,5 +77,11 @@ class MyApp extends StatelessWidget{
 }
 ```
 
+等菜单出现了。
+
+我们再让他更接近一个app
+
+比如给空白的内容里加点家具。
+
 
 
