@@ -2,7 +2,9 @@
 
 [https://flutter.io/docs/development/ui/widgets](https://flutter.io/docs/development/ui/widgets)
 
-大分类有以下几个。光复制还真费劲啊。我这个人懒，很少写这样的文章。但为了深入学习，牢固记忆又不得不复制粘贴。
+大分类有以下几个。
+
+光复制还真费劲啊。我这个人懒，很少写这样的文章。但为了深入学习，牢固记忆又不得不复制粘贴。
 
 #### Accessibility widgets
 
