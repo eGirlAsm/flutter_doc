@@ -44,7 +44,7 @@ runApp(
 
 ![](/assets/container.png)
 
-还可以用其他widget组件 
+还可以用其他widget组件
 
 ```
 import 'package:flutter/material.dart';
@@ -61,5 +61,9 @@ runApp(
 }
 ```
 
+或者把 Padding替换为 Align Widget也是可以的。
 
+参照 
+
+[https://flutter.io/docs/development/ui/widgets/layout](https://flutter.io/docs/development/ui/widgets/layout)
 
