@@ -20,7 +20,7 @@ runApp(
 
 TextDirection 应该是文章左对齐 右对齐 。
 
-
+#### 试试更改
 
 试着把Center改成了 Container 按SHIFT + F5 停止调试,然后再Command + SHIFT + F5 重新调试。
 
