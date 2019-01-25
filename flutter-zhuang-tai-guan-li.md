@@ -14,5 +14,51 @@
 当widget的状态改变时，状态对象调用setState()，告诉框架重绘widget
 ```
 
+我最喜欢菜单栏就用菜单栏把，很多官方案例都是按钮，实在没意思。
+
+```
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MaterialApp(home: ZhuangTai()));
+}
+
+class ZhuangTai extends StatefulWidget{
+  @override
+  _ZhuangtaiState createState()=> new _ZhuangtaiState();
+}
+
+
+class _ZhuangtaiState extends State<ZhuangTai>{
+  String _shenme = "qunima";
+
+  void _setZhuangTai(int nIndex){
+    setState((){
+      if(_shenme == "qunima" && nIndex == 1){
+        _shenme = "nimabi";
+      }else{
+        _shenme = "qunima";
+      }
+    });
+  }
+
+  @override
+  Widget build(BuildContext context){
+    return new Scaffold(
+      body: Center(
+        child: Text(_shenme,textDirection:TextDirection.ltr),
+      ),
+      bottomNavigationBar:BottomNavigationBar(
+        items: <BottomNavigationBarItem>[
+          BottomNavigationBarItem(icon: Icon(Icons.home),title: Text('qunima')),
+          BottomNavigationBarItem(icon: Icon(Icons.home),title: Text("nimabi")),
+        ],
+        onTap: _setZhuangTai,
+      ),
+    );
+  }
+}
+```
+
 
 
